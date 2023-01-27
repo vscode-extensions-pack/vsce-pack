@@ -72,7 +72,7 @@ const askVersion = () => {
   inquirer
     .prompt([
       {
-        name: "pubname",
+        name: "version",
         message: "What is your Application Version?",
         default: "0.0.1",
       },
