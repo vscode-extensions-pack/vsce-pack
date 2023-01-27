@@ -1,0 +1,26 @@
+{
+  "name": "vsce-pack",
+  "version": "0.0.1",
+  "description": "Node Cli tools to create VS Code Extension Pack",
+  "main": "index.js",
+  "bin": {
+    "vsce-pack": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vscode-extensions-pack/vsce-pack.git"
+  },
+  "keywords": [],
+  "author": "Sumanta Kabiraj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vscode-extensions-pack/vsce-pack/issues"
+  },
+  "homepage": "https://github.com/vscode-extensions-pack/vsce-pack#readme",
+  "dependencies": {
+    "date-and-time": "^2.4.2",
+    "fs-extra": "^11.1.0",
+    "inquirer": "8.0.0",
+    "template-file": "^6.0.1"
+  }
+}
