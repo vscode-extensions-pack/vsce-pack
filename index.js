@@ -173,6 +173,7 @@ const createLaunchJsonFile = () => {
 
 const copyIconFile = () => {
   const filePath = path.join(projectPath, "icon.png");
-  fs.copyFileSync("icon.png", filePath);
+  const iconPath = path.join(__dirname, "icon.png");
+  fs.copyFileSync(iconPath, filePath);
   console.log("Created: ", filePath);
 };
