@@ -6,6 +6,9 @@
   "bin": {
     "vsce-pack": "index.js"
   },
+  "scripts": {
+    "test": "echo tested"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vscode-extensions-pack/vsce-pack.git"
