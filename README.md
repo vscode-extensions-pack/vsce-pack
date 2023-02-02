@@ -1,2 +1,2 @@
-# vsce-pack
-Node Cli tools to create VS Code Extension Pack 
+# vsce Pack
+Node Cli tools to Create VS Code Extension Pack
